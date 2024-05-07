@@ -1,0 +1,9 @@
+
+.scroll-slow {
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-points-x: repeat(100%);
+    scroll-snap-stop: always;
+    scroll-padding: 0px 20px;
+  }
+  
