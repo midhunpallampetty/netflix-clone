@@ -12,6 +12,7 @@ function Row({ title, fetchURL, rowID }) {
       .get(fetchURL)
       .then((response) => {
         setMovies(response.data.results);
+        console.log(response.data)
       })
       .catch((error) => {
         console.error("Error fetching movies:", error);
